@@ -194,6 +194,23 @@ main {
     opacity: .6;
     transform: scale(1.1);
 }
+
+
+/* Page 2 Styling */
+
+.price-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.schedule-heading {
+    
+}
+.GC3-card {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
